@@ -38,7 +38,6 @@ class DocumentFactory:
             raise ValueError(f"Unknown document type: {doc_type}")
 
 
-# ✅ Ось ця частина обов’язкова!
 if __name__ == "__main__":
     types = ['pdf', 'word', 'excel']
     for t in types:
